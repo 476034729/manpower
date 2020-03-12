@@ -1,0 +1,65 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+form .rest_table {
+	width: 580px;
+	font-size: 14px;
+	border-collapse: collapse;
+	margin-left:-4px;
+	/*代替了collspacing和collpadding*/
+	border-spacing: 0;
+	font-family: "微软雅黑";
+	position: absolute;
+}
+
+form .rest_table td {
+	padding-left: 5px;
+}
+
+table .rest_title {
+	font-family: "微软雅黑";
+	font-size: 24px;
+}
+
+table .apply_name {
+	width: 147px;
+	height: 24px;
+}
+
+table .rest_reason {
+	width: 430px;
+	height: 120px;
+}
+
+table .contact_me {
+	width: 382px;
+	height: 24px;
+}
+
+table .details_me {
+	height: 50px;
+	margin-left: 12px;
+	margin-top: 9px;
+}
+
+table .rest_button {
+	width: 70px;
+	height: 28px;
+	margin-left: 20px;
+}
+
+
+/*去除单元格的边框*/
+
+table .noneborderright {
+	border-right: none;
+}
+table .noneborderboth {
+	border-left: none;
+	border-right: none;
+}
+table .noneborderleft {
+	border-left: none;
+}

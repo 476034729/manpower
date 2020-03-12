@@ -1,0 +1,24 @@
+
+?squid:S1068"(Remove this unused "year" private field.(¡‚ºð
+Hsquid:S1481¦"0Remove this unused "titleStyle2" local variable.(ØÎô‹
+csquid:CommentedOutCodeLine´"<This block of commented-out lines of code should be removed.(ÒÅ‰«
+Asquid:S1481®")Remove this unused "cell" local variable.(Ïµ‘®
+hsquid:CommentedOutCodeLinež"<This block of commented-out lines of code should be removed.(Þ¸æïûÿÿÿÿ
+csquid:CommentedOutCodeLine¶"<This block of commented-out lines of code should be removed.(­ÞÆ“
+csquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(ù•³†
+[squid:UselessImportCheck"7Remove this unused import 'java.text.SimpleDateFormat'.(ú¡ÙÛ
+ssquid:S1488¹"\Immediately return this expression instead of assigning it to the temporary variable "bais".(¦»ã0
+Esquid:S1068")Remove this unused "bDate" private field.( êìšþÿÿÿÿ
+Xsquid:UselessImportCheck"4Remove this unused import 'java.text.DecimalFormat'.(¤°Ó˜
+Rsquid:S1854"5Remove this useless assignment to local variable "r".(’ï¿ûÿÿÿÿ
+Esquid:S1481­"(Remove this unused "row" local variable.(Óåâèüÿÿÿÿ
+Psquid:S1172«"3Remove this unused method parameter "projectName1".(ÛÛ‹ïúÿÿÿÿ
+hsquid:S3252Œ"PUse static access with "org.apache.poi.ss.usermodel.Font" for "BOLDWEIGHT_BOLD".(Û¨Þ—
+Tsquid:S00107R"=Method has 14 parameters, which is greater than 7 authorized.(ŠŒ’Y
+Tsquid:S00107j"<Method has 9 parameters, which is greater than 7 authorized.(ÐŽá±
+Zsquid:S001070"=Method has 10 parameters, which is greater than 7 authorized.(†²¢Òûÿÿÿÿ
+hsquid:CommentedOutCodeLineü"<This block of commented-out lines of code should be removed.(ÙŸŠýÿÿÿÿ
+Wsquid:S1854¦"?Remove this useless assignment to local variable "titleStyle2".(ØÎô‹
+msquid:S3252‘"UUse static access with "org.apache.poi.ss.usermodel.CellStyle" for "VERTICAL_CENTER".(÷¿ÌÜ
+hsquid:CommentedOutCodeLineÚ"<This block of commented-out lines of code should be removed.(•äÅûÿÿÿÿ
+‚%squid:RedundantThrowsDeclarationCheck¦"KRemove the redundant 'java.io.IOException' thrown exception declaration(s).(ÇžžÌþÿÿÿÿ

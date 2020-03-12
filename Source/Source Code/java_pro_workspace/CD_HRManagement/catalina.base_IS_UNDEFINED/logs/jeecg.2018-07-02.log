@@ -1,0 +1,18 @@
+2018-07-02 17:48:18.939 [main] WARN  RMICacheManagerPeerListener - Explicitly setting the listener hostname to 'localhost' is not recommended. It will only work if all CacheManager peers are on the same machine.
+2018-07-02 17:48:27.178 [main] INFO  Version - Hibernate Validator 4.2.0.Final
+2018-07-02 17:48:37.669 [main] INFO  ReflectionServiceFactoryBean - Creating Service {http://test.ws.demo.web.jeecgframework.org/}JeecgWServiceImplService from class org.jeecgframework.web.demo.ws.test.JeecgWServiceI
+2018-07-02 17:48:43.291 [main] INFO  ServerImpl - Setting the server's publish address to be /JeecgWService
+2018-07-02 17:48:43.458 [main] INFO  ReflectionServiceFactoryBean - Creating Service {http://test.ws.demo.web.jeecgframework.org/}JeecgWDemoServiceImplService from class org.jeecgframework.web.demo.ws.test.JeecgWServiceI
+2018-07-02 17:48:43.470 [main] INFO  ServerImpl - Setting the server's publish address to be /JeecgWDemoService
+2018-07-02 17:51:17.703 [main] WARN  RMICacheManagerPeerListener - Explicitly setting the listener hostname to 'localhost' is not recommended. It will only work if all CacheManager peers are on the same machine.
+2018-07-02 17:51:26.538 [main] INFO  Version - Hibernate Validator 4.2.0.Final
+2018-07-02 17:51:42.148 [main] INFO  ReflectionServiceFactoryBean - Creating Service {http://test.ws.demo.web.jeecgframework.org/}JeecgWServiceImplService from class org.jeecgframework.web.demo.ws.test.JeecgWServiceI
+2018-07-02 17:51:43.860 [main] INFO  ServerImpl - Setting the server's publish address to be /JeecgWService
+2018-07-02 17:51:43.974 [main] INFO  ReflectionServiceFactoryBean - Creating Service {http://test.ws.demo.web.jeecgframework.org/}JeecgWDemoServiceImplService from class org.jeecgframework.web.demo.ws.test.JeecgWServiceI
+2018-07-02 17:51:43.988 [main] INFO  ServerImpl - Setting the server's publish address to be /JeecgWDemoService
+2018-07-02 18:01:43.438 [main] WARN  RMICacheManagerPeerListener - Explicitly setting the listener hostname to 'localhost' is not recommended. It will only work if all CacheManager peers are on the same machine.
+2018-07-02 18:01:44.855 [main] INFO  Version - Hibernate Validator 4.2.0.Final
+2018-07-02 18:01:53.481 [main] INFO  ReflectionServiceFactoryBean - Creating Service {http://test.ws.demo.web.jeecgframework.org/}JeecgWServiceImplService from class org.jeecgframework.web.demo.ws.test.JeecgWServiceI
+2018-07-02 18:01:54.635 [main] INFO  ServerImpl - Setting the server's publish address to be /JeecgWService
+2018-07-02 18:01:54.733 [main] INFO  ReflectionServiceFactoryBean - Creating Service {http://test.ws.demo.web.jeecgframework.org/}JeecgWDemoServiceImplService from class org.jeecgframework.web.demo.ws.test.JeecgWServiceI
+2018-07-02 18:01:54.744 [main] INFO  ServerImpl - Setting the server's publish address to be /JeecgWDemoService

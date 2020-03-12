@@ -1,0 +1,101 @@
+2018-11-29 16:35:20.158 [main] INFO  AsyncExecLampAndGZoneRSTask - ============init system timer task:execute lamp and gzone relationship!============
+2018-11-29 16:35:20.888 [main] INFO  Version - Hibernate Validator 4.2.0.Final
+2018-11-29 16:35:22.380 [main] INFO  AsyncExecLampAndGZoneRSTask - ============init system timer task:execute lamp and gzone relationship!============
+2018-11-29 16:35:22.657 [main] WARN  RMICacheManagerPeerListener - Explicitly setting the listener hostname to 'localhost' is not recommended. It will only work if all CacheManager peers are on the same machine.
+2018-11-29 16:35:23.967 [main] INFO  AsyncExecLampAndGZoneRSTask - ============init system timer task:execute lamp and gzone relationship!============
+2018-11-29 16:35:23.969 [main] INFO  AsyncExecLampAndGZoneRSTask - ============init system timer task:execute lamp and gzone relationship!============
+2018-11-29 16:35:23.970 [main] INFO  AsyncExecLampAndGZoneRSTask - ============init system timer task:execute lamp and gzone relationship!============
+2018-11-29 16:35:25.980 [main] INFO  ReflectionServiceFactoryBean - Creating Service {http://test.ws.demo.web.jeecgframework.org/}JeecgWServiceImplService from class org.jeecgframework.web.demo.ws.test.JeecgWServiceI
+2018-11-29 16:35:26.475 [main] INFO  ServerImpl - Setting the server's publish address to be /JeecgWService
+2018-11-29 16:35:26.568 [main] INFO  ReflectionServiceFactoryBean - Creating Service {http://test.ws.demo.web.jeecgframework.org/}JeecgWDemoServiceImplService from class org.jeecgframework.web.demo.ws.test.JeecgWServiceI
+2018-11-29 16:35:26.574 [main] INFO  ServerImpl - Setting the server's publish address to be /JeecgWDemoService
+2018-11-29 16:36:19.135 [main] INFO  AsyncExecLampAndGZoneRSTask - ============init system timer task:execute lamp and gzone relationship!============
+2018-11-29 16:36:19.768 [main] INFO  Version - Hibernate Validator 4.2.0.Final
+2018-11-29 16:36:20.674 [main] INFO  AsyncExecLampAndGZoneRSTask - ============init system timer task:execute lamp and gzone relationship!============
+2018-11-29 16:36:20.894 [main] WARN  RMICacheManagerPeerListener - Explicitly setting the listener hostname to 'localhost' is not recommended. It will only work if all CacheManager peers are on the same machine.
+2018-11-29 16:36:22.133 [main] INFO  AsyncExecLampAndGZoneRSTask - ============init system timer task:execute lamp and gzone relationship!============
+2018-11-29 16:36:22.136 [main] INFO  AsyncExecLampAndGZoneRSTask - ============init system timer task:execute lamp and gzone relationship!============
+2018-11-29 16:36:22.137 [main] INFO  AsyncExecLampAndGZoneRSTask - ============init system timer task:execute lamp and gzone relationship!============
+2018-11-29 16:36:23.835 [main] INFO  ReflectionServiceFactoryBean - Creating Service {http://test.ws.demo.web.jeecgframework.org/}JeecgWServiceImplService from class org.jeecgframework.web.demo.ws.test.JeecgWServiceI
+2018-11-29 16:36:24.219 [main] INFO  ServerImpl - Setting the server's publish address to be /JeecgWService
+2018-11-29 16:36:24.287 [main] INFO  ReflectionServiceFactoryBean - Creating Service {http://test.ws.demo.web.jeecgframework.org/}JeecgWDemoServiceImplService from class org.jeecgframework.web.demo.ws.test.JeecgWServiceI
+2018-11-29 16:36:24.294 [main] INFO  ServerImpl - Setting the server's publish address to be /JeecgWDemoService
+2018-11-29 16:37:38.392 [main] INFO  AsyncExecLampAndGZoneRSTask - ============init system timer task:execute lamp and gzone relationship!============
+2018-11-29 16:37:39.009 [main] INFO  Version - Hibernate Validator 4.2.0.Final
+2018-11-29 16:37:39.939 [main] INFO  AsyncExecLampAndGZoneRSTask - ============init system timer task:execute lamp and gzone relationship!============
+2018-11-29 16:37:40.124 [main] WARN  RMICacheManagerPeerListener - Explicitly setting the listener hostname to 'localhost' is not recommended. It will only work if all CacheManager peers are on the same machine.
+2018-11-29 16:37:41.541 [main] INFO  AsyncExecLampAndGZoneRSTask - ============init system timer task:execute lamp and gzone relationship!============
+2018-11-29 16:37:41.544 [main] INFO  AsyncExecLampAndGZoneRSTask - ============init system timer task:execute lamp and gzone relationship!============
+2018-11-29 16:37:41.544 [main] INFO  AsyncExecLampAndGZoneRSTask - ============init system timer task:execute lamp and gzone relationship!============
+2018-11-29 16:37:43.401 [main] INFO  ReflectionServiceFactoryBean - Creating Service {http://test.ws.demo.web.jeecgframework.org/}JeecgWServiceImplService from class org.jeecgframework.web.demo.ws.test.JeecgWServiceI
+2018-11-29 16:37:43.821 [main] INFO  ServerImpl - Setting the server's publish address to be /JeecgWService
+2018-11-29 16:37:43.895 [main] INFO  ReflectionServiceFactoryBean - Creating Service {http://test.ws.demo.web.jeecgframework.org/}JeecgWDemoServiceImplService from class org.jeecgframework.web.demo.ws.test.JeecgWServiceI
+2018-11-29 16:37:43.903 [main] INFO  ServerImpl - Setting the server's publish address to be /JeecgWDemoService
+2018-11-29 16:38:56.896 [main] INFO  AsyncExecLampAndGZoneRSTask - ============init system timer task:execute lamp and gzone relationship!============
+2018-11-29 16:38:57.534 [main] INFO  Version - Hibernate Validator 4.2.0.Final
+2018-11-29 16:38:58.408 [main] INFO  AsyncExecLampAndGZoneRSTask - ============init system timer task:execute lamp and gzone relationship!============
+2018-11-29 16:38:58.597 [main] WARN  RMICacheManagerPeerListener - Explicitly setting the listener hostname to 'localhost' is not recommended. It will only work if all CacheManager peers are on the same machine.
+2018-11-29 16:38:59.890 [main] INFO  AsyncExecLampAndGZoneRSTask - ============init system timer task:execute lamp and gzone relationship!============
+2018-11-29 16:38:59.892 [main] INFO  AsyncExecLampAndGZoneRSTask - ============init system timer task:execute lamp and gzone relationship!============
+2018-11-29 16:38:59.892 [main] INFO  AsyncExecLampAndGZoneRSTask - ============init system timer task:execute lamp and gzone relationship!============
+2018-11-29 16:39:01.717 [main] INFO  ReflectionServiceFactoryBean - Creating Service {http://test.ws.demo.web.jeecgframework.org/}JeecgWServiceImplService from class org.jeecgframework.web.demo.ws.test.JeecgWServiceI
+2018-11-29 16:39:02.199 [main] INFO  ServerImpl - Setting the server's publish address to be /JeecgWService
+2018-11-29 16:39:02.310 [main] INFO  ReflectionServiceFactoryBean - Creating Service {http://test.ws.demo.web.jeecgframework.org/}JeecgWDemoServiceImplService from class org.jeecgframework.web.demo.ws.test.JeecgWServiceI
+2018-11-29 16:39:02.322 [main] INFO  ServerImpl - Setting the server's publish address to be /JeecgWDemoService
+2018-11-29 16:40:13.265 [main] INFO  AsyncExecLampAndGZoneRSTask - ============init system timer task:execute lamp and gzone relationship!============
+2018-11-29 16:40:13.906 [main] INFO  Version - Hibernate Validator 4.2.0.Final
+2018-11-29 16:40:14.836 [main] INFO  AsyncExecLampAndGZoneRSTask - ============init system timer task:execute lamp and gzone relationship!============
+2018-11-29 16:40:15.032 [main] WARN  RMICacheManagerPeerListener - Explicitly setting the listener hostname to 'localhost' is not recommended. It will only work if all CacheManager peers are on the same machine.
+2018-11-29 16:40:16.299 [main] INFO  AsyncExecLampAndGZoneRSTask - ============init system timer task:execute lamp and gzone relationship!============
+2018-11-29 16:40:16.301 [main] INFO  AsyncExecLampAndGZoneRSTask - ============init system timer task:execute lamp and gzone relationship!============
+2018-11-29 16:40:16.302 [main] INFO  AsyncExecLampAndGZoneRSTask - ============init system timer task:execute lamp and gzone relationship!============
+2018-11-29 16:40:18.149 [main] INFO  ReflectionServiceFactoryBean - Creating Service {http://test.ws.demo.web.jeecgframework.org/}JeecgWServiceImplService from class org.jeecgframework.web.demo.ws.test.JeecgWServiceI
+2018-11-29 16:40:18.621 [main] INFO  ServerImpl - Setting the server's publish address to be /JeecgWService
+2018-11-29 16:40:18.706 [main] INFO  ReflectionServiceFactoryBean - Creating Service {http://test.ws.demo.web.jeecgframework.org/}JeecgWDemoServiceImplService from class org.jeecgframework.web.demo.ws.test.JeecgWServiceI
+2018-11-29 16:40:18.718 [main] INFO  ServerImpl - Setting the server's publish address to be /JeecgWDemoService
+2018-11-29 16:41:53.674 [main] INFO  AsyncExecLampAndGZoneRSTask - ============init system timer task:execute lamp and gzone relationship!============
+2018-11-29 16:41:54.418 [main] INFO  Version - Hibernate Validator 4.2.0.Final
+2018-11-29 16:41:55.313 [main] INFO  AsyncExecLampAndGZoneRSTask - ============init system timer task:execute lamp and gzone relationship!============
+2018-11-29 16:41:55.507 [main] WARN  RMICacheManagerPeerListener - Explicitly setting the listener hostname to 'localhost' is not recommended. It will only work if all CacheManager peers are on the same machine.
+2018-11-29 16:41:56.761 [main] INFO  AsyncExecLampAndGZoneRSTask - ============init system timer task:execute lamp and gzone relationship!============
+2018-11-29 16:41:56.765 [main] INFO  AsyncExecLampAndGZoneRSTask - ============init system timer task:execute lamp and gzone relationship!============
+2018-11-29 16:41:56.765 [main] INFO  AsyncExecLampAndGZoneRSTask - ============init system timer task:execute lamp and gzone relationship!============
+2018-11-29 16:41:58.623 [main] INFO  ReflectionServiceFactoryBean - Creating Service {http://test.ws.demo.web.jeecgframework.org/}JeecgWServiceImplService from class org.jeecgframework.web.demo.ws.test.JeecgWServiceI
+2018-11-29 16:41:59.037 [main] INFO  ServerImpl - Setting the server's publish address to be /JeecgWService
+2018-11-29 16:41:59.123 [main] INFO  ReflectionServiceFactoryBean - Creating Service {http://test.ws.demo.web.jeecgframework.org/}JeecgWDemoServiceImplService from class org.jeecgframework.web.demo.ws.test.JeecgWServiceI
+2018-11-29 16:41:59.134 [main] INFO  ServerImpl - Setting the server's publish address to be /JeecgWDemoService
+2018-11-29 16:43:07.462 [main] INFO  AsyncExecLampAndGZoneRSTask - ============init system timer task:execute lamp and gzone relationship!============
+2018-11-29 16:43:08.050 [main] INFO  Version - Hibernate Validator 4.2.0.Final
+2018-11-29 16:43:08.945 [main] INFO  AsyncExecLampAndGZoneRSTask - ============init system timer task:execute lamp and gzone relationship!============
+2018-11-29 16:43:09.125 [main] WARN  RMICacheManagerPeerListener - Explicitly setting the listener hostname to 'localhost' is not recommended. It will only work if all CacheManager peers are on the same machine.
+2018-11-29 16:43:10.507 [main] INFO  AsyncExecLampAndGZoneRSTask - ============init system timer task:execute lamp and gzone relationship!============
+2018-11-29 16:43:10.510 [main] INFO  AsyncExecLampAndGZoneRSTask - ============init system timer task:execute lamp and gzone relationship!============
+2018-11-29 16:43:10.511 [main] INFO  AsyncExecLampAndGZoneRSTask - ============init system timer task:execute lamp and gzone relationship!============
+2018-11-29 16:43:12.328 [main] INFO  ReflectionServiceFactoryBean - Creating Service {http://test.ws.demo.web.jeecgframework.org/}JeecgWServiceImplService from class org.jeecgframework.web.demo.ws.test.JeecgWServiceI
+2018-11-29 16:43:12.806 [main] INFO  ServerImpl - Setting the server's publish address to be /JeecgWService
+2018-11-29 16:43:12.889 [main] INFO  ReflectionServiceFactoryBean - Creating Service {http://test.ws.demo.web.jeecgframework.org/}JeecgWDemoServiceImplService from class org.jeecgframework.web.demo.ws.test.JeecgWServiceI
+2018-11-29 16:43:12.899 [main] INFO  ServerImpl - Setting the server's publish address to be /JeecgWDemoService
+2018-11-29 16:54:13.658 [main] INFO  AsyncExecLampAndGZoneRSTask - ============init system timer task:execute lamp and gzone relationship!============
+2018-11-29 16:54:14.368 [main] INFO  Version - Hibernate Validator 4.2.0.Final
+2018-11-29 16:54:15.285 [main] INFO  AsyncExecLampAndGZoneRSTask - ============init system timer task:execute lamp and gzone relationship!============
+2018-11-29 16:54:15.326 [main] INFO  AsyncExecLampAndGZoneRSTask - ============init system timer task:execute lamp and gzone relationship!============
+2018-11-29 16:54:15.470 [main] WARN  RMICacheManagerPeerListener - Explicitly setting the listener hostname to 'localhost' is not recommended. It will only work if all CacheManager peers are on the same machine.
+2018-11-29 16:54:16.683 [main] INFO  AsyncExecLampAndGZoneRSTask - ============init system timer task:execute lamp and gzone relationship!============
+2018-11-29 16:54:16.687 [main] INFO  AsyncExecLampAndGZoneRSTask - ============init system timer task:execute lamp and gzone relationship!============
+2018-11-29 16:54:16.687 [main] INFO  AsyncExecLampAndGZoneRSTask - ============init system timer task:execute lamp and gzone relationship!============
+2018-11-29 16:54:18.627 [main] INFO  ReflectionServiceFactoryBean - Creating Service {http://test.ws.demo.web.jeecgframework.org/}JeecgWServiceImplService from class org.jeecgframework.web.demo.ws.test.JeecgWServiceI
+2018-11-29 16:54:19.035 [main] INFO  ServerImpl - Setting the server's publish address to be /JeecgWService
+2018-11-29 16:54:19.102 [main] INFO  ReflectionServiceFactoryBean - Creating Service {http://test.ws.demo.web.jeecgframework.org/}JeecgWDemoServiceImplService from class org.jeecgframework.web.demo.ws.test.JeecgWServiceI
+2018-11-29 16:54:19.109 [main] INFO  ServerImpl - Setting the server's publish address to be /JeecgWDemoService
+2018-11-29 17:20:46.480 [main] INFO  AsyncExecLampAndGZoneRSTask - ============init system timer task:execute lamp and gzone relationship!============
+2018-11-29 17:20:47.116 [main] INFO  Version - Hibernate Validator 4.2.0.Final
+2018-11-29 17:20:48.016 [main] INFO  AsyncExecLampAndGZoneRSTask - ============init system timer task:execute lamp and gzone relationship!============
+2018-11-29 17:20:48.059 [main] INFO  AsyncExecLampAndGZoneRSTask - ============init system timer task:execute lamp and gzone relationship!============
+2018-11-29 17:20:48.224 [main] WARN  RMICacheManagerPeerListener - Explicitly setting the listener hostname to 'localhost' is not recommended. It will only work if all CacheManager peers are on the same machine.
+2018-11-29 17:20:49.623 [main] INFO  AsyncExecLampAndGZoneRSTask - ============init system timer task:execute lamp and gzone relationship!============
+2018-11-29 17:20:49.624 [main] INFO  AsyncExecLampAndGZoneRSTask - ============init system timer task:execute lamp and gzone relationship!============
+2018-11-29 17:20:49.624 [main] INFO  AsyncExecLampAndGZoneRSTask - ============init system timer task:execute lamp and gzone relationship!============
+2018-11-29 17:20:51.404 [main] INFO  ReflectionServiceFactoryBean - Creating Service {http://test.ws.demo.web.jeecgframework.org/}JeecgWServiceImplService from class org.jeecgframework.web.demo.ws.test.JeecgWServiceI
+2018-11-29 17:20:51.847 [main] INFO  ServerImpl - Setting the server's publish address to be /JeecgWService
+2018-11-29 17:20:51.935 [main] INFO  ReflectionServiceFactoryBean - Creating Service {http://test.ws.demo.web.jeecgframework.org/}JeecgWDemoServiceImplService from class org.jeecgframework.web.demo.ws.test.JeecgWServiceI
+2018-11-29 17:20:51.945 [main] INFO  ServerImpl - Setting the server's publish address to be /JeecgWDemoService

@@ -1,0 +1,59 @@
+
+8squid:S1643_"Use a StringBuilder instead.(†ìûıÿÿÿÿ
+dsquid:S1192ß"GDefine a constant instead of duplicating this literal "closed" 3 times.(Ú½Çùÿÿÿÿ
+`squid:S11926"IDefine a constant instead of duplicating this literal "username" 3 times.(˜é†§
+]squid:S1192t"FDefine a constant instead of duplicating this literal "UTF-8" 6 times.(£¤ÇË
+fsquid:S2095ã"NUse try-with-resources or close this "FileOutputStream" in a "finally" clause.(âí¥
+fsquid:S2095Û"NUse try-with-resources or close this "FileOutputStream" in a "finally" clause.(âí¥
+fsquid:S2095Ó"NUse try-with-resources or close this "FileOutputStream" in a "finally" clause.(âí¥
+Rsquid:S1141Ê"5Extract this nested try block into a separate method.(¡»¢üùÿÿÿÿ
+bsquid:S2259­"JA "NullPointerException" could be thrown; "curChildList" is nullable here.(ı¼
+^squid:S2259¼"AA "NullPointerException" could be thrown; "bis" is nullable here.(ğÛ†‹üÿÿÿÿ
+@squid:S1148 "#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
+@squid:S1148À"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
+@squid:S1148Ê"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
+@squid:S1148"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
+@squid:S1148À"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
+Usquid:S1155:">Use isEmpty() to check whether the collection is empty or not.(•×‰Š
+Usquid:S1155A">Use isEmpty() to check whether the collection is empty or not.(•×‰Š
+Zsquid:S1155Q">Use isEmpty() to check whether the collection is empty or not.(¾‡ã¹üÿÿÿÿ
+Vsquid:S1155Ş">Use isEmpty() to check whether the collection is empty or not.(…¢…Š
+Vsquid:S1155">Use isEmpty() to check whether the collection is empty or not.(¦±•®
+Vsquid:S1155">Use isEmpty() to check whether the collection is empty or not.(Ó„¶
+Vsquid:S1155Ş">Use isEmpty() to check whether the collection is empty or not.(ú˜¥Š
+[squid:S1155å">Use isEmpty() to check whether the collection is empty or not.(Ó¥äÚùÿÿÿÿ
+Vsquid:S1155ó">Use isEmpty() to check whether the collection is empty or not.(¹€¶Õ
+Vsquid:S1155¡">Use isEmpty() to check whether the collection is empty or not.(¡÷äª
+Vsquid:S1155¨">Use isEmpty() to check whether the collection is empty or not.(¡÷äª
+„squid:S1845ƒ"lRename method "comboTree" to prevent any misunderstanding/clash with method "ComboTree" defined on line 495.(¯ïŒ
+|squid:S1149ò"_Replace the synchronized class "StringBuffer" by an unsynchronized one such as "StringBuilder".(°†Áíùÿÿÿÿ
+wsquid:S1149ø"_Replace the synchronized class "StringBuffer" by an unsynchronized one such as "StringBuilder".(í…Ò‰
+rsquid:S20684"V'password' detected in this expression, review this potentially hard-coded credential.(Û“ºùüÿÿÿÿ
+nsquid:S3776l"RRefactor this method to reduce its Cognitive Complexity from 65 to the 15 allowed.(Éüè®ùÿÿÿÿ
+Ssquid:S1854¡";Remove this useless assignment to local variable "swfName".(–İÛ¬
+=squid:S1075}"&Remove this hard-coded path-delimiter.(„ÿ›í
+<squid:S1075~"&Remove this hard-coded path-delimiter.(ºÃ´V
+>squid:S1075–"&Remove this hard-coded path-delimiter.(°¿“
+>squid:S1075—"&Remove this hard-coded path-delimiter.(›½ó‡
+=squid:S1075™"&Remove this hard-coded path-delimiter.(Š·«/
+Csquid:S1075š"&Remove this hard-coded path-delimiter.(Ü‘øÿÿÿÿ
+Bsquid:S00108ú")Either remove or fill this block of code.(°òÒ¬
+jsquid:S3776"RRefactor this method to reduce its Cognitive Complexity from 22 to the 15 allowed.(ì®”Ö
+Zsquid:S1854å"=Remove this useless assignment to local variable "classType".(´’„ÿÿÿÿÿ
+>squid:S1075õ"&Remove this hard-coded path-delimiter.(¾Ú«ï
+jsquid:S3776Š"RRefactor this method to reduce its Cognitive Complexity from 25 to the 15 allowed.(‡à–Î
+Ysquid:S3878©"ADisambiguate this call by either casting as "Class" or "Class[]".(Å¾İ¥
+Ysquid:S1858®"A"getText" returns a string, there's no need to call "toString()".(Ö¢³Â
+jsquid:S3776ƒ"RRefactor this method to reduce its Cognitive Complexity from 19 to the 15 allowed.(¯ïŒ
+Gsquid:S00108")Either remove or fill this block of code.(Ñ‹İ¶ÿÿÿÿÿ
+osquid:S3776´"RRefactor this method to reduce its Cognitive Complexity from 77 to the 15 allowed.(İÇ¥Æúÿÿÿÿ
+\squid:S1858è"?"getId" returns a string, there's no need to call "toString()".(´õà˜ùÿÿÿÿ
+\squid:S1858û"?"getId" returns a string, there's no need to call "toString()".(”™ö”øÿÿÿÿ
+ssquid:S2068›"V'password' detected in this expression, review this potentially hard-coded credential.(ÆÊ™‚ıÿÿÿÿ
+Dsquid:S1481",Remove this unused "swfName" local variable.(î’É²
+Ksquid:S1481å".Remove this unused "classType" local variable.(´’„ÿÿÿÿÿ
+hsquid:CommentedOutCodeLine»"<This block of commented-out lines of code should be removed.(±ÈªŞüÿÿÿÿ
+hsquid:CommentedOutCodeLineÌ"<This block of commented-out lines of code should be removed.(§İ§­şÿÿÿÿ
+csquid:CommentedOutCodeLineÎ"<This block of commented-out lines of code should be removed.(œìÂ­
+csquid:CommentedOutCodeLineí"<This block of commented-out lines of code should be removed.(‹µé
+csquid:CommentedOutCodeLineï"<This block of commented-out lines of code should be removed.(¬íñ±

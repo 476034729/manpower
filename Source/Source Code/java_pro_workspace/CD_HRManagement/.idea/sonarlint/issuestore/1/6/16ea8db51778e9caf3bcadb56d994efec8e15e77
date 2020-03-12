@@ -1,0 +1,14 @@
+
+Nsquid:S1135,"2Complete the task associated to this TODO comment.(ÕÌ®şÿÿÿÿ
+¢%squid:RedundantThrowsDeclarationCheck"qRemove the declaration of thrown exception 'java.text.ParseException', as it cannot be thrown from method's body.(ˆ…­Å
+jsquid:S00101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(óÎ °ùÿÿÿÿ
+bsquid:CommentedOutCodeLineN"<This block of commented-out lines of code should be removed.(ğíÖ´
+bsquid:CommentedOutCodeLineU"<This block of commented-out lines of code should be removed.(ˆ©†Ô
+osquid:UselessImportCheck"KRemove this unused import 'org.jeecgframework.web.system.pojo.base.TSUser'.(šŠ™Ù
+O
+squid:S106z"9Replace this use of System.out or System.err by a logger.(®ş×
+gsquid:CommentedOutCodeLineC"<This block of commented-out lines of code should be removed.(š«ç™ûÿÿÿÿ
+bsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(½‘Ñ³
+`squid:UselessImportCheck"<Remove this unused import 'com.alibaba.fastjson.JSONObject'.(äıµ
+isquid:UselessImportCheck
+"ERemove this unused import 'org.jeecgframework.web.hrm.bean.WorkHour'.(Öı§ã

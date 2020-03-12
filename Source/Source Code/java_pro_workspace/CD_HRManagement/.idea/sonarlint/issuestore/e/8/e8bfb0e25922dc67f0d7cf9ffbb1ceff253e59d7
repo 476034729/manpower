@@ -1,0 +1,42 @@
+
+Vsquid:S3752Ò">Add a "method" parameter to this "@RequestMapping" annotation.(¦õÒì
+esquid:S4488"HReplace "@RequestMapping(method = RequestMethod.GET)" with "@GetMapping"(Ò²çûÿÿÿÿ
+\squid:S3252Š"DUse static access with "com.alibaba.fastjson.JSON" for "parseArray".(Õ±­
+u
+squid:S135å"YReduce the total number of break and continue statements in this loop to use at most one.(ÚåÔïúÿÿÿÿ
+_squid:S4488k"HReplace "@RequestMapping(method = RequestMethod.GET)" with "@GetMapping"(öÔ«
+Vsquid:S3752ù">Add a "method" parameter to this "@RequestMapping" annotation.(Ú†ŞÆ
+Ssquid:S1854†";Remove this useless assignment to local variable "user_id".(å‹«Ê
+jsquid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ø¶ğ¾
+dsquid:S4488E"HReplace "@RequestMapping(method = RequestMethod.GET)" with "@GetMapping"(ÿ¾°Íùÿÿÿÿ
+[squid:S3752É">Add a "method" parameter to this "@RequestMapping" annotation.(©êâúşÿÿÿÿ
+U
+squid:S106˜"9Replace this use of System.out or System.err by a logger.(ÎóÂäøÿÿÿÿ
+dsquid:S4488^"HReplace "@RequestMapping(method = RequestMethod.GET)" with "@GetMapping"(Š“òºşÿÿÿÿ
+gsquid:S4488"JReplace "@RequestMapping(method = RequestMethod.POST)" with "@PostMapping"(öÍÆşÿÿÿÿ
+bsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(ÁÂ€a
+Usquid:S3752*">Add a "method" parameter to this "@RequestMapping" annotation.(ş÷¹õ
+bsquid:S4488€"JReplace "@RequestMapping(method = RequestMethod.POST)" with "@PostMapping"(¥üÉ²
+[squid:S3752À">Add a "method" parameter to this "@RequestMapping" annotation.(ÚˆÃÿÿÿÿÿ
+\squid:S3252«"DUse static access with "com.alibaba.fastjson.JSON" for "parseArray".(Õ±­
+asquid:S3252©"DUse static access with "com.alibaba.fastjson.JSON" for "parseArray".(£–¦—úÿÿÿÿ
+\squid:UselessImportCheck"3Remove this unused import 'java.net.SocketOptions'.(£Şûÿÿÿÿ
+jsquid:S00117†"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(å‹«Ê
+}squid:S4144 "`Update this method so that its implementation is not identical to "getWorkHourList1" on line 96.(·¹Æáøÿÿÿÿ
+asquid:S3252ˆ"DUse static access with "com.alibaba.fastjson.JSON" for "parseArray".(£–¦—úÿÿÿÿ
+lsquid:S00100¨"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(â¿¾¡ûÿÿÿÿ
+[squid:S3752×">Add a "method" parameter to this "@RequestMapping" annotation.(³ÖÑãÿÿÿÿÿ
+Zsquid:S3752.">Add a "method" parameter to this "@RequestMapping" annotation.(§·«Ëÿÿÿÿÿ
+\squid:S3252ª"DUse static access with "com.alibaba.fastjson.JSON" for "parseArray".(Ùñˆî
+asquid:S3252®"DUse static access with "com.alibaba.fastjson.JSON" for "parseArray".(£–¦—úÿÿÿÿ
+gsquid:S4488¦"JReplace "@RequestMapping(method = RequestMethod.POST)" with "@PostMapping"(Ğ¿ªŞüÿÿÿÿ
+\squid:S3252‰"DUse static access with "com.alibaba.fastjson.JSON" for "parseArray".(Ùñˆî
+esquid:S4488«"HReplace "@RequestMapping(method = RequestMethod.GET)" with "@GetMapping"(ƒÜÊôÿÿÿÿÿ
+asquid:S3252È"DUse static access with "com.alibaba.fastjson.JSON" for "parseArray".(£–¦—úÿÿÿÿ
+Dsquid:S1481†",Remove this unused "user_id" local variable.(å‹«Ê
+`squid:S4488½"HReplace "@RequestMapping(method = RequestMethod.GET)" with "@GetMapping"(°Ø…
+\squid:S3252Æ"DUse static access with "com.alibaba.fastjson.JSON" for "parseArray".(ÛëÖŞ
+asquid:S3252Ã"DUse static access with "com.alibaba.fastjson.JSON" for "parseArray".(”í‚ ûÿÿÿÿ
+U
+squid:S106¶"9Replace this use of System.out or System.err by a logger.(ÎóÂäøÿÿÿÿ
+gsquid:S00100‚"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ğ‹Ş÷

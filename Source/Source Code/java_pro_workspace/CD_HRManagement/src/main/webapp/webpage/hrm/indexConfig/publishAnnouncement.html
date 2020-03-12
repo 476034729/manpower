@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>发布公告</title>
+	<link rel="stylesheet" type="text/css" href="http://g.alicdn.com/sj/dpl/1.5.1/css/sui.min.css">
+	<link rel="stylesheet" type="text/css" href="http://g.alicdn.com/sj/dpl/1.5.1/css/sui-append.min.css">
+	<link rel="stylesheet" type="text/css" href="css/publishAnnouncement.css">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+</head>
+<body>
+	<div class='sui-container main-div'>
+	<form class="sui-form form-horizontal sui-validate">
+		<div class="control-group">
+    		<label for="inputTitle" class="control-label">公告标题：</label>
+    		<div class="controls">
+      			<input type="text" id="inputTitle" name="title" placeholder="公告标题" data-rules="required" class="input-xlarge input-xfat">
+    		</div>
+    	</div>
+    	 <div class="control-group">
+    		<label for="inputContent" class="control-label">公告内容：</label>
+	   		<div class="controls">
+	     		 <textarea id="inputContent" name="content" placeholder="公告内容" data-rules="required" class="input-xlarge input-xfat" rows="5"></textarea>
+	    	</div>
+  		</div>
+    	<div class="control-group">
+    		<label for="inputContent" class="control-label"></label>
+	    	<div class="controls">
+	     		<button type="button" class="sui-btn btn-primary btn-xlarge" id="publish">发布公告</button>
+	   		</div>
+	   		<div class="sui-msg msg-large">
+			  	<div class="msg-con"></div>
+			  	<s class="msg-icon"></s>
+			</div>
+	   	</div>
+	   	
+	</form>
+	</div>
+
+<script type="text/javascript" src="http://g.alicdn.com/sj/lib/jquery/dist/jquery.min.js"></script>
+<script type="text/javascript" src="http://g.alicdn.com/sj/dpl/1.5.1/js/sui.min.js"></script>
+<script type="text/javascript" src="js/publishAnnouncement.js"></script>
+</body>
+</html>

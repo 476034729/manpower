@@ -1,0 +1,16 @@
+
+@squid:S1148¡"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
+V
+squid:S106Q"9Replace this use of System.out or System.err by a logger.(Œ€×Ä8´£’‡ü-
+|squid:S1149"_Replace the synchronized class "StringBuffer" by an unsynchronized one such as "StringBuilder".(«Äâüÿÿÿÿ
+‚squid:S1149X"_Replace the synchronized class "StringBuffer" by an unsynchronized one such as "StringBuilder".(«Äâüÿÿÿÿ8´£’‡ü-
+dsquid:S1192,"FDefine a constant instead of duplicating this literal "UTF-8" 3 times.(€…õ8´£’‡ü-
+]squid:S3252†"EUse static access with "com.alibaba.fastjson.JSON" for "parseObject".(·ÓÀ¤
+zsquid:S1488‡"]Immediately return this expression instead of assigning it to the temporary variable "param".(‰¿·Œúÿÿÿÿ
+hsquid:CommentedOutCodeLineœ"<This block of commented-out lines of code should be removed.(”–³Ïüÿÿÿÿ
+Fsquid:S1148j"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8´£’‡ü-
+?squid:S11485"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
+Fsquid:S1148c"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8´£’‡ü-
+{squid:S1149#"_Replace the synchronized class "StringBuffer" by an unsynchronized one such as "StringBuilder".(«Äâüÿÿÿÿ
+Fsquid:S1148q"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8´£’‡ü-
+bsquid:S3252‡"EUse static access with "com.alibaba.fastjson.JSON" for "parseObject".(‰¿·Œúÿÿÿÿ

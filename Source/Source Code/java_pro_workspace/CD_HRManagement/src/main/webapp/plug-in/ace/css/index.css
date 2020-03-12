@@ -1,0 +1,67 @@
+.form_project {
+	position: relative;
+}
+.hide{
+    display: none;
+}
+.list{
+    height:298px;
+    width:184px;
+    overflow-y: auto;
+    cursor:default;
+    font: 400 13.3333px Arial;
+}
+#input-value{
+    position: relative;
+    cursor:default;
+    width:184px;
+    margin:0;
+}
+
+.mod_select ul {
+    margin:0;
+    padding:0;
+}
+.mod_select ul li {
+    list-style-type:none;
+    float:left;
+    margin-left:20px;
+    height:24px;
+}
+/* .select_box {
+    float:left;
+    color:#444;
+    position:relative;
+    cursor:default;
+    width:176px;
+    font-size:12px;
+} */
+.form_project_input {
+    display:inline-block;
+    padding-left:10px;
+    width:188px;
+    line-height:20px;
+    height:20px;
+    cursor:default;
+    overflow:hidden;
+    font-size:12px;
+    height: 32px;
+    background: url("http://ourjs.github.io/static/2015/arrow.png") no-repeat scroll right center transparent;
+}
+div.form_project_option {
+    width:200px;
+    position:absolute;
+    top:31px;
+    left:47px;
+    z-index:2;
+    overflow:hidden;
+    display:none;
+    height:300px;
+    overflow-y: auto;
+    /* border: 1px solid gray; */
+}
+.form_project_option div {
+    padding:5px 10px;
+    background:#fff;
+    font-size:12px;
+}

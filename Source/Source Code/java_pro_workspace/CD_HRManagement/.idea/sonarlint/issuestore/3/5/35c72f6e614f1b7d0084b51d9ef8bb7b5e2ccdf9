@@ -1,0 +1,17 @@
+
+ssquid:S1488ð"[Immediately return this expression instead of assigning it to the temporary variable "map".(Ù¨äÕ
+ysquid:S1488«"\Immediately return this expression instead of assigning it to the temporary variable "list".(éùè™ÿÿÿÿÿ
+dsquid:S1192]"MDefine a constant instead of duplicating this literal "allowanceFee" 6 times.(ÊÅñš
+fsquid:S1192c"JDefine a constant instead of duplicating this literal "startTime" 7 times.(›•»üÿÿÿÿ
+ssquid:S1488*"\Immediately return this expression instead of assigning it to the temporary variable "list".(¸“å±
+Zsquid:S1155!">Use isEmpty() to check whether the collection is empty or not.(É€°Îøÿÿÿÿ
+Psquid:S2130¯"8Use "Long.parseLong" for this string-to-long conversion.(ê½¥Ž
+Usquid:S2130¶"8Use "Long.parseLong" for this string-to-long conversion.(Ð“¥Õûÿÿÿÿ
+Osquid:S2130d"8Use "Long.parseLong" for this string-to-long conversion.(ê½¥Ž
+tsquid:S1488ü"\Immediately return this expression instead of assigning it to the temporary variable "list".(í…èã
+`squid:S1192ˆ"HDefine a constant instead of duplicating this literal "costFee" 6 times.(½ýéü
+xsquid:S1488D"\Immediately return this expression instead of assigning it to the temporary variable "list".(àµ«ßÿÿÿÿÿ
+Tsquid:S2130j"8Use "Long.parseLong" for this string-to-long conversion.(Ð“¥Õûÿÿÿÿ
+Lsquid:S1481`"0Remove this unused "currentTime" local variable.(ÁƒÆíøÿÿÿÿ
+[squid:S1854`"?Remove this useless assignment to local variable "currentTime".(ÁƒÆíøÿÿÿÿ
+_squid:S1192i"HDefine a constant instead of duplicating this literal "endTime" 7 times.(¿öõ”

@@ -1,0 +1,7 @@
+
+8squid:S1643#"Use a StringBuilder instead.(Ï¨¹Éıÿÿÿÿ
+Vsquid:S1118":Add a private constructor to hide the implicit public one.(Äåëûşÿÿÿÿ
+isquid:S3776"RRefactor this method to reduce its Cognitive Complexity from 31 to the 15 allowed.(ò•œŠ
+]squid:S3027("FPut single-quotes around '[' to use the faster "indexOf(char)" method.(˜áÏ
+bsquid:S3027)"FPut single-quotes around '[' to use the faster "indexOf(char)" method.(Ëøí×ùÿÿÿÿ
+bsquid:S3027+"FPut single-quotes around '[' to use the faster "indexOf(char)" method.(¢ğ·®şÿÿÿÿ

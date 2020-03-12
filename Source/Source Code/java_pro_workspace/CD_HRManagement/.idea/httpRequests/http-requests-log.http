@@ -1,0 +1,258 @@
+GET http://localhost:8080/WorkHourController.do
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-07-11T053358.200.html
+
+###
+
+GET http://localhost:8080/WorkHourController.do
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-07-11T053111.200.html
+
+###
+
+GET http://localhost:8080/WorkHourController.do
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-07-11T053038.200.html
+
+###
+
+POST http://localhost:8080/WorkHourController
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-07-11T050357.404.html
+
+###
+
+POST http://localhost:8080/hrmMenuController.do
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-07-09T050847.200.html
+
+###
+
+POST http://localhost:8080/hrmMenuControlle.do
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-07-09T050815.404.html
+
+###
+
+POST http://localhost:8080/hrmMenuControlle
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-07-09T050807.404.html
+
+###
+
+POST http://localhost:8080/hrmMenuController
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-07-09T050800.404.html
+
+###
+
+POST http://localhost:8080/hrmMenuController.do
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-07-09T050438.200.html
+
+###
+
+GET http://localhost:8080/hrmMenuController.do
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-07-09T050430.200.html
+
+###
+
+GET http://localhost:8080/hrmMenuController.do
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-07-09T050414.200.html
+
+###
+
+GET http://localhost:8080/hrmMenuController.do
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-07-09T050336.200.html
+
+###
+
+GET http://localhost:8080/hrmMenuController.do
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-07-09T050320.200.html
+
+###
+
+GET http://localhost:8080/hrmMenuController.do
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-07-09T050304.200.html
+
+###
+
+GET http://localhost:8080/hrmMenuController
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-07-09T050144.404.html
+
+###
+
+GET http://localhost:8080/hrmMenuController
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-07-09T050124.404.html
+
+###
+
+GET http://localhost:8080/hrmMenuController
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-07-09T050120.404.html
+
+###
+
+GET http://localhost:8080/hrmMenuController
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-07-09T050110.404.html
+
+###
+
+GET http://localhost:8080/hrmMenuController
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-07-09T050035.404.html
+
+###
+
+POST http://localhost:8080/hrmLoginController?=&job_num=11111&password=123456
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-07-09T045828.404.html
+
+###
+
+POST http://localhost:8080/hrmMenuController?=&job_num=11111&password=123456
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-07-09T045753-1.404.html
+
+###
+
+POST http://localhost:8080/hrmMenuController?=&job_num=11111&password=123456
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-07-09T045753.404.html
+
+###
+
+POST http://localhost:8080/hrmMenuController?=&job_num=11111&password=123456
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-07-09T045752.404.html
+
+###
+
+POST http://localhost:8080/hrmMenuControllergetMenuByUser?=&job_num=11111&password=123456
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-07-09T045749.404.html
+
+###
+
+POST http://localhost:8080/hrmMenuController/getMenuByUser?=&job_num=11111&password=123456
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-07-09T044942.404.html
+
+###
+
+GET http://localhost:8080/hrmMenuController/getMenuByUser?=&job_num=11111&password=123456
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-07-09T044852.404.html
+
+###
+
+GET http://localhost:8080/hrmMenuController/getMenuByUser?=&job_num=11111&password=123456
+Accept: */*
+Cache-Control: no-cache
+
+###
+
+GET http://localhost:8080/hrmMenuController/getMenuByUser?=&job_num=11111&password=123456
+Accept: */*
+Cache-Control: no-cache
+
+###
+
+POST http://localhost:8080/hrmMenuController/getMenuByUser?=&job_num=11111&password=123456
+Accept: */*
+Cache-Control: no-cache
+
+###
+
+POST http://localhost:8080/hrmMenuController/getMenuByUser?=&job_num=11111&password=123456
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-07-09T043623.404.html
+
+###
+
+POST http://localhost:8080/hrmLoginController?=&job_num=11111&password=123456
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-07-06T022745.404.html
+
+###
+
+GET http://localhost:8080/hrmLoginController?=&job_num=11111&password=123456
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-07-06T022007.404.html
+
+###
+
+POST http://localhost:8080/hrmLoginController?checkUser?=&job_num=11111&password=123456
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-07-06T021941.404.html
+
+###
+

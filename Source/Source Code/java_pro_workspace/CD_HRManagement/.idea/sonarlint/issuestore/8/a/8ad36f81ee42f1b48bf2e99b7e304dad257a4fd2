@@ -1,0 +1,26 @@
+
+O
+squid:S106("9Replace this use of System.out or System.err by a logger.(éÜþ™
+msquid:UselessImportCheck"IRemove this unused import 'org.apache.commons.lang.time.DateFormatUtils'.(ÀÐå“
+?squid:S1148!"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ
+T
+squid:S106"9Replace this use of System.out or System.err by a logger.(´‹¹öþÿÿÿÿ
+jsquid:S00101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(óÎ °ùÿÿÿÿ
+Xsquid:S1854F"<Remove this useless assignment to local variable "newDates".(Š‘ƒÞüÿÿÿÿ
+?squid:S1148j"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ
+Lsquid:S2209L"5Change this instance-reference to a static reference.(Öá®§
+Isquid:S1481F"-Remove this unused "newDates" local variable.(Š‘ƒÞüÿÿÿÿ
+csquid:S00112,"FDefine and throw a dedicated exception instead of using a generic one.(èÝÎÑþÿÿÿÿ
+Xsquid:S18545"ARemove this useless assignment to local variable "sdfDateFormat".(¤ÿ×ž
+?squid:S1148u"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ
+asquid:CommentedOutCodeLineC"<This block of commented-out lines of code should be removed.(ä³ét
+gsquid:CommentedOutCodeLinee"<This block of commented-out lines of code should be removed.(”–³Ïüÿÿÿÿ
+asquid:S3252J"EUse static access with "com.alibaba.fastjson.JSON" for "parseObject".(áŽ¥àýÿÿÿÿ
+Psquid:S2864x"4Iterate over the "entrySet" instead of the "keySet".(¥Ô·Œþÿÿÿÿ
+{squid:S1149W"_Replace the synchronized class "StringBuffer" by an unsynchronized one such as "StringBuilder".(«Äâüÿÿÿÿ
+ysquid:UselessImportCheck"IRemove this unused import 'org.jeecgframework.web.hrm.utils.HolidayUtil'.(²Ö–ÿÿÿÿÿ8º¡Å‡ü-
+O
+squid:S106H"9Replace this use of System.out or System.err by a logger.(£ÃÁÙ
+Isquid:S14815"2Remove this unused "sdfDateFormat" local variable.(¤ÿ×ž
+O
+squid:S106y"9Replace this use of System.out or System.err by a logger.(¡›ö‘

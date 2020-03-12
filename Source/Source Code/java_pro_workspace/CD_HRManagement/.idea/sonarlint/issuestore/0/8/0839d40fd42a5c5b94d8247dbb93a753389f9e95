@@ -1,0 +1,44 @@
+
+Zsquid:S11559">Use isEmpty() to check whether the collection is empty or not.(É€°Îøÿÿÿÿ
+Zsquid:S1155h">Use isEmpty() to check whether the collection is empty or not.(é‡¨Öıÿÿÿÿ
+wsquid:S1149"_Replace the synchronized class "StringBuffer" by an unsynchronized one such as "StringBuilder".(¥Ø…é
+psquid:S3776˜"SRefactor this method to reduce its Cognitive Complexity from 362 to the 15 allowed.(øÜö‰ùÿÿÿÿ
+Zsquid:S1155">Use isEmpty() to check whether the collection is empty or not.(É€°Îøÿÿÿÿ
+hsquid:CommentedOutCodeLine§"<This block of commented-out lines of code should be removed.(é¶Âøüÿÿÿÿ
+Vsquid:S1854Ó"9Remove this useless assignment to local variable "count".(ëæûÿÿÿÿÿ
+¤squid:S1192@"ŒDefine a constant instead of duplicating this literal "insert into t_hrm_workhour_cm(id,user_id,work_day,update_day,amorpm,number)" 3 times.(úÎ”›
+Gsquid:S5411¹"*Use the primitive boolean expression here.(¾´Æ«øÿÿÿÿ
+Vsquid:S1854Ä"9Remove this useless assignment to local variable "count".(ëæûÿÿÿÿÿ
+Zsquid:S1155h">Use isEmpty() to check whether the collection is empty or not.(é‡¨Öıÿÿÿÿ
+fsquid:S2259­"IA "NullPointerException" could be thrown; "hrmDateList" is nullable here.(ï¬ë’üÿÿÿÿ
+Usquid:S1155Ó">Use isEmpty() to check whether the collection is empty or not.(¿›Ë{
+jsquid:S00117ÿ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÇÄğÖ
+[squid:S1155è">Use isEmpty() to check whether the collection is empty or not.(É€°Îøÿÿÿÿ
+jsquid:S00117¡"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ôÈ¸ƒ
+Vsquid:S1854å"9Remove this useless assignment to local variable "count".(ëæûÿÿÿÿÿ
+¦squid:S1192("‰Define a constant instead of duplicating this literal "insert into t_hrm_workhour(id,user_id,work_day,update_day,amorpm,number)" 4 times.(—ı‰ıÿÿÿÿ
+]squid:S1192)"GDefine a constant instead of duplicating this literal "values" 5 times.(³ğ–i
+osquid:S00117’"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(©ïÀğÿÿÿÿÿ
+Gsquid:S5411É"*Use the primitive boolean expression here.(«»ÖÙùÿÿÿÿ
+ªsquid:S1192"’Define a constant instead of duplicating this literal "from WorkHour u where u.user_id=? and YEAR(u.work_day)=? and MONTH(u.work_day) =?" 3 times.(àÒ¥Ö
+¡squid:S1192%"„Define a constant instead of duplicating this literal "from HrmDate u where  YEAR(u.work_date)=? and MONTH(u.work_date) =?" 5 times.(Ãèìôüÿÿÿÿ
+Gsquid:S5411™"*Use the primitive boolean expression here.(½ÜÂÙøÿÿÿÿ
+nsquid:S001173"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¶ûæöúÿÿÿÿ
+squid:S1186õ"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(è¹ø•øÿÿÿÿ
+osquid:S00117¤"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(´èó…üÿÿÿÿ
+osquid:S00117Ş"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.( ÆÉúÿÿÿÿ
+|squid:S1149•"_Replace the synchronized class "StringBuffer" by an unsynchronized one such as "StringBuilder".(Ï­”ÿıÿÿÿÿ
+Bsquid:S5411ó"*Use the primitive boolean expression here.(ƒßŒ
+gsquid:CommentedOutCodeLine~"<This block of commented-out lines of code should be removed.(ÃÊÔ£ıÿÿÿÿ
+[squid:S1155á">Use isEmpty() to check whether the collection is empty or not.(—ìÚÜøÿÿÿÿ
+isquid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(—İŠ±
+hsquid:CommentedOutCodeLine·"<This block of commented-out lines of code should be removed.(Éû¤ıÿÿÿÿ
+wsquid:S1149"_Replace the synchronized class "StringBuffer" by an unsynchronized one such as "StringBuilder".(±ïŞØ
+[squid:S1155õ">Use isEmpty() to check whether the collection is empty or not.(É€°Îøÿÿÿÿ
+Vsquid:S1854ı"9Remove this useless assignment to local variable "count".(ëæûÿÿÿÿÿ
+[squid:S1155¹">Use isEmpty() to check whether the collection is empty or not.(¾´Æ«øÿÿÿÿ
+Vsquid:S1854¤"9Remove this useless assignment to local variable "count".(ëæûÿÿÿÿÿ
+wsquid:S1149”"_Replace the synchronized class "StringBuffer" by an unsynchronized one such as "StringBuilder".(±ïŞØ
+isquid:S00117¯"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ª¡ûr
+hsquid:CommentedOutCodeLineŸ"<This block of commented-out lines of code should be removed.(ƒµõ¹úÿÿÿÿ
+osquid:S00117ˆ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¸åÂÚúÿÿÿÿ

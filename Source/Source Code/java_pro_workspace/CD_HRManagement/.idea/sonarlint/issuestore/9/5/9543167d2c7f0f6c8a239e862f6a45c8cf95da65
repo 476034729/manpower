@@ -1,0 +1,39 @@
+
+Rsquid:S2209¥"5Change this instance-reference to a static reference.(ïøíöüÿÿÿÿ
+bsquid:CommentedOutCodeLineñ"<This block of commented-out lines of code should be removed.(ìÈ¥h
+Tsquid:S1854°"<Remove this useless assignment to local variable "pageSize".(Â®ûÈ
+@squid:S1148Ù"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
+csquid:CommentedOutCodeLineğ"<This block of commented-out lines of code should be removed.(«ÊÔ¿
+bsquid:CommentedOutCodeLineƒ"<This block of commented-out lines of code should be removed.(ìÈ¥h
+bsquid:CommentedOutCodeLineê"<This block of commented-out lines of code should be removed.(ìÈ¥h
+3squid:S2326H"PK is not used in the class.(×Ö§À
+wsquid:S1488Ó"`Immediately return this expression instead of assigning it to the temporary variable "criteria".(¹ÒĞ}
+Zsquid:UnusedPrivateMethod`"0Remove this unused private "getProperty" method.(áª–àıÿÿÿÿ
+9squid:S2326È"T is not used in the method.(ü§¢¡şÿÿÿÿ
+bsquid:CommentedOutCodeLine¯"<This block of commented-out lines of code should be removed.(ìÈ¥h
+bsquid:CommentedOutCodeLineá"<This block of commented-out lines of code should be removed.(ìÈ¥h
+?squid:S1148"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
+Tsquid:S1854Ø"<Remove this useless assignment to local variable "pageSize".(Â®ûÈ
+bsquid:CommentedOutCodeLine·"<This block of commented-out lines of code should be removed.(ìÈ¥h
+Msquid:S2209Î"5Change this instance-reference to a static reference.(‡ÕµÀ
+ysquid:S1488Ö"\Immediately return this expression instead of assigning it to the temporary variable "list".(ÕˆÑ×ûÿÿÿÿ
+hsquid:CommentedOutCodeLine×"<This block of commented-out lines of code should be removed.(šü¢şÿÿÿÿ
+4squid:S2326À"T is not used in the method.(ÕÈƒ„
+bsquid:CommentedOutCodeLineÂ"<This block of commented-out lines of code should be removed.(ìÈ¥h
+Rsquid:S2209©"5Change this instance-reference to a static reference.(ïøíöüÿÿÿÿ
+Rsquid:S2209Í"5Change this instance-reference to a static reference.(„’…Êıÿÿÿÿ
+Msquid:S2209ª"5Change this instance-reference to a static reference.(‡ÕµÀ
+Msquid:S2209¦"5Change this instance-reference to a static reference.(‡ÕµÀ
+Vsquid:S1155ì">Use isEmpty() to check whether the collection is empty or not.(ˆÊÕŠ
+hsquid:CommentedOutCodeLineÛ"<This block of commented-out lines of code should be removed.(»ÿµœÿÿÿÿÿ
+Rsquid:S2209ù"5Change this instance-reference to a static reference.(ïøíöüÿÿÿÿ
+hsquid:CommentedOutCodeLine­"<This block of commented-out lines of code should be removed.(â÷üÈıÿÿÿÿ
+bsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(ìÈ¥h
+8squid:S2326`"T is not used in the method.(áª–àıÿÿÿÿ
+bsquid:CommentedOutCodeLineª"<This block of commented-out lines of code should be removed.(ìÈ¥h
+zsquid:S1488Ü"]Immediately return this expression instead of assigning it to the temporary variable "count".(ó¼Ğ™úÿÿÿÿ
+Bsquid:S5411¬"*Use the primitive boolean expression here.(‘ªÚ
+Tsquid:S1854Œ"<Remove this useless assignment to local variable "pageSize".(Â®ûÈ
+asquid:S00119H"IRename this generic name to match the regular expression '^[A-Z][0-9]?$'.(×Ö§À
+9squid:S2326"T is not used in the method.(“»è€ùÿÿÿÿ
+Msquid:S2209ú"5Change this instance-reference to a static reference.(‡ÕµÀ

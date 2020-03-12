@@ -1,0 +1,42 @@
+
+gsquid:CommentedOutCodeLine@"<This block of commented-out lines of code should be removed.(ñ¥Ôıÿÿÿÿ
+esquid:S4488—"HReplace "@RequestMapping(method = RequestMethod.GET)" with "@GetMapping"(×Šû²ÿÿÿÿÿ
+hsquid:CommentedOutCodeLineä"<This block of commented-out lines of code should be removed.(¸÷¥óüÿÿÿÿ
+Esquid:S1481ñ"(Remove this unused "sdf" local variable.(ÓÌ¤æıÿÿÿÿ
+Nsquid:S1153€"1Directly append the argument of String.valueOf().(öì¸‚øÿÿÿÿ
+esquid:S4488"HReplace "@RequestMapping(method = RequestMethod.GET)" with "@GetMapping"(ÅãŒ—ùÿÿÿÿ
+Usquid:UselessImportCheck"1Remove this unused import 'java.math.BigDecimal'.(êêŠ
+lsquid:UselessImportCheck
+"HRemove this unused import 'org.jeecgframework.web.hrm.bean.ProjectCode'.(¡œºş
+~squid:UselessImportCheck"ZRemove this unused import 'org.jeecgframework.web.hrm.service.impl.ApplyCheckServiceImpl'.(Ô³úê
+asquid:S4488:"JReplace "@RequestMapping(method = RequestMethod.POST)" with "@PostMapping"(ÚŸàª
+asquid:S4488N"JReplace "@RequestMapping(method = RequestMethod.POST)" with "@PostMapping"(šâ…÷
+bsquid:S4488Á"JReplace "@RequestMapping(method = RequestMethod.POST)" with "@PostMapping"(Éš‡ö
+gsquid:S4488Ô"JReplace "@RequestMapping(method = RequestMethod.POST)" with "@PostMapping"(¹§»æıÿÿÿÿ
+hsquid:UselessImportCheck"?Remove this unused import 'org.springframework.http.MediaType'.(úŸİ¯şÿÿÿÿ
+_squid:S4488a"HReplace "@RequestMapping(method = RequestMethod.GET)" with "@GetMapping"(¤Ö
+esquid:S4488©"HReplace "@RequestMapping(method = RequestMethod.GET)" with "@GetMapping"(ùìÇçüÿÿÿÿ
+esquid:S4488¹"HReplace "@RequestMapping(method = RequestMethod.GET)" with "@GetMapping"(ú¶ªùÿÿÿÿ
+Msquid:S1481«"0Remove this unused "tsReimburse" local variable.(·Ïøÿÿÿÿ
+`squid:S4488Á"HReplace "@RequestMapping(method = RequestMethod.GET)" with "@GetMapping"(ú…ˆ©
+\squid:S1854«"?Remove this useless assignment to local variable "tsReimburse".(·Ïøÿÿÿÿ
+Jsquid:S1481¬"2Remove this unused "tsReimDetails" local variable.(ø…„Í
+vsquid:S1488¼"YImmediately return this expression instead of assigning it to the temporary variable "m".(à€Ëäùÿÿÿÿ
+vsquid:S1488™"YImmediately return this expression instead of assigning it to the temporary variable "m".(à€Ëäùÿÿÿÿ
+esquid:S4488¶"HReplace "@RequestMapping(method = RequestMethod.GET)" with "@GetMapping"(®ƒ÷ úÿÿÿÿ
+gsquid:S4488™"JReplace "@RequestMapping(method = RequestMethod.POST)" with "@PostMapping"(ƒ¦©õşÿÿÿÿ
+Rsquid:UselessImportCheck "/Remove this unused import 'java.sql.Timestamp'.(èò½+
+lsquid:UselessImportCheck"CRemove this unused import 'org.jeecgframework.core.util.DateUtils'.(›Î››ùÿÿÿÿ
+esquid:S4488î"HReplace "@RequestMapping(method = RequestMethod.GET)" with "@GetMapping"(½ï˜ùúÿÿÿÿ
+csquid:CommentedOutCodeLineÄ"<This block of commented-out lines of code should be removed.(àøâµ
+lsquid:S4144˜"UUpdate this method so that its implementation is not identical to "test" on line 186.(›’²
+hsquid:CommentedOutCodeLineÈ"<This block of commented-out lines of code should be removed.(¥Õ­‰úÿÿÿÿ
+Jsquid:S1481¥"-Remove this unused "document" local variable.(Üñ·¬ûÿÿÿÿ
+u
+squid:S135Û"YReduce the total number of break and continue statements in this loop to use at most one.(ÚåÔïúÿÿÿÿ
+ysquid:S1192¼"\Define a constant instead of duplicating this literal "hrm/reimburse/reimburselist" 3 times.(à€Ëäùÿÿÿÿ
+gsquid:CommentedOutCodeLineT"<This block of commented-out lines of code should be removed.(õ€Íşÿÿÿÿ
+Ysquid:S1854¥"<Remove this useless assignment to local variable "document".(Üñ·¬ûÿÿÿÿ
+Tsquid:S1854ñ"7Remove this useless assignment to local variable "sdf".(ÓÌ¤æıÿÿÿÿ
+Vsquid:S3752³">Add a "method" parameter to this "@RequestMapping" annotation.(†¬Ç
+Ysquid:S1854¬"ARemove this useless assignment to local variable "tsReimDetails".(ø…„Í

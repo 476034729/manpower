@@ -1,0 +1,12 @@
+
+Hsquid:S1068"1Remove this unused "systemService" private field.(·§é­
+Esquid:S1481")Remove this unused "name" local variable.(òŸ¯žþÿÿÿÿ
+Tsquid:S1854"8Remove this useless assignment to local variable "name".(òŸ¯žþÿÿÿÿ
+Ssquid:S1854,"7Remove this useless assignment to local variable "sql".(œÓÍ½ÿÿÿÿÿ
+esquid:S001005"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(”Çÿ
+nsquid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¯’¾‡ûÿÿÿÿ
+T
+squid:S1061"9Replace this use of System.out or System.err by a logger.(ÐëìÇýÿÿÿÿ
+Dsquid:S1481,"(Remove this unused "sql" local variable.(œÓÍ½ÿÿÿÿÿ
+N
+squid:S1066"9Replace this use of System.out or System.err by a logger.(Œ ½;

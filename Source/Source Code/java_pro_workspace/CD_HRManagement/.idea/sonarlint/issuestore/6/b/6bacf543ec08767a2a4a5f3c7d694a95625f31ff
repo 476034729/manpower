@@ -1,0 +1,9 @@
+
+Tsquid:UselessImportCheck"+Remove this unused import 'java.util.List'.(Õë±Äøÿÿÿÿ
+tsquid:UselessImportCheck"PRemove this unused import 'org.jeecgframework.web.hrm.bean.ExaminationQuestion'.(Ç¨©í
+usquid:UselessImportCheck	"LRemove this unused import 'org.jeecgframework.web.hrm.bean.ExaminationType'.(ÓÛìÐúÿÿÿÿ
+qsquid:UselessImportCheck"HRemove this unused import 'org.jeecgframework.web.hrm.bean.Examination'.(þâÖöúÿÿÿÿ
+squid:UselessImportCheck"VRemove this unused import 'org.jeecgframework.web.hrm.bean.ExaminationQuestionOption'.(ª»Ùæþÿÿÿÿ
+xsquid:UselessImportCheck"TRemove this unused import 'org.jeecgframework.web.hrm.service.IExamQuestionService'.(œÖ”ü
+T
+squid:S106"9Replace this use of System.out or System.err by a logger.(ëÌØ¤ýÿÿÿÿ

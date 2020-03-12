@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="cn">
+<head>
+    <meta charset="UTF-8">
+    <title>公告</title>
+    <link rel="stylesheet" href="css/pgwslider.min.css">
+    <link rel="stylesheet" href="css/announcement.css">
+    <link rel="stylesheet" type="text/css" href="http://g.alicdn.com/sj/dpl/1.5.1/css/sui.min.css">
+    <link rel="stylesheet" type="text/css" href="http://g.alicdn.com/sj/dpl/1.5.1/css/sui-append.min.css">
+
+</head>
+<body class="announcement">
+    <div id="iframeContent" style="background-color:#e4e6e9">
+        <div id="pic">
+            <ul class="pgwSlider">
+            </ul>
+            <div id="announcementList">
+                <div id="announcementListHead" >
+                    <span draggable="false">公告列表</span>
+                </div>
+                <div id="announcementListBody">
+                    <table id="table">
+                        <tr>
+                            <td><span>·</span></td>
+                            <td style="padding-top: 5px;padding-bottom: 5px;">
+                                <a  title="" href="#"></a>
+                            </td>
+                            <td class="time" style="padding-left:20%;"></td>
+                        </tr>
+
+                        <tr>
+                            <td><span>·</span></td>
+                            <td style="padding-top: 5px;padding-bottom: 5px;">
+                                <a title="" href="#"></a>
+                            </td>
+                            <td class="time" style="padding-left: 20%;"></td>
+                        </tr>
+
+                        <tr>
+                            <td><span>·</span></td>
+                            <td style="padding-top: 10px;padding-bottom: 10px;">
+                                <a title="" href="#"></a>
+                            </td>
+                            <td class="time" style="padding-left: 20%;"></td>
+                        </tr>
+
+                        <tr>
+                            <td><span>·</span></td>
+                            <td style="padding-top: 5px;padding-bottom: 5px;">
+                                <a title="" href="#"></a>
+                            </td>
+                            <td class="time" style="width: 40%;padding-left: 20%"></td>
+                        </tr>
+
+                        <tr>
+                            <td><span>·</span></td>
+                            <td style="padding-top: 5px">
+                                <a title="" href="#"></a>
+                            </td>
+                            <td class="time" style="padding-left: 20%"></td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <div id="announcementTable">
+            <div id="announcementDetail">
+                <div id="announcementDetailHead">
+                    <span>公告正文</span>
+                </div>
+                <div id="announcementDetailBody">
+                    <div style="margin-left: 10px;margin-top: 7px">
+                     <div id="announcementDetailTitle">
+                </div>
+                <div id="announcementDetailText">
+                </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+<script src="http://g.tbcdn.cn/sj/lib/jquery/dist/jquery.min.js"></script>
+<script src="js/pgwslider.min.js"></script>
+<script type="text/javascript" src="http://g.alicdn.com/sj/dpl/1.5.1/js/sui.min.js"></script>
+<script>
+    window.onload=function (ev) {
+        // var url="http://localhost:8080/jeecg";
+       var url="http://192.168.0.92:8052/hrm";
+        $.ajax({
+                type: "POST",
+                url: url+"/announcement/list.do",
+                dataType: "json",
+                success:function(data){
+                    if (data.success===true){
+                        var $content=$('#announcementDetailText');
+                        var $BodyTitle= $('#announcementDetailTitle');
+                        for (let i=0;i<data.obj.length;i++){
+                            var $title= $('#table a:eq('+(i)+')');
+                            $title.html(data.obj[i].title);
+                            $title.attr("title",data.obj[i].title);
+                            $title.on("click",function () {
+                                console.log(i)
+                                $BodyTitle.html(data.obj[i].title)
+                                $content.html(data.obj[i].content)
+                            });
+                            var date=new Date(data.obj[i].createDate);
+                            var year =date.getFullYear()+'/';
+                            var month =date.getMonth()+1+'/';
+                            var day = date.getDate()+' ';
+                            var hour = date.getHours()+':';
+                            var minute=date.getMinutes();
+                            if (date.getHours()<10){
+                                hour="0"+date.getHours()+':';
+                            }else if (date.getMinutes()<10){
+                                minute="0"+date.getMinutes();
+                            }
+                            $('.time:eq('+(i)+')').html([year,month,day,hour,minute].join(""));
+                        }
+                        $BodyTitle.html(data.obj[0].title)
+                        $content.html(data.obj[0].content);
+
+                    }else {
+
+                    }
+                }
+            }
+        );
+        $.ajax({
+            type: "POST",
+            url: url+"/loopPlay/list.do",
+            dataType: "json",
+            success:function (data) {
+                if (data.success===true){
+                    var $imageBOX=$('.pgwSlider');
+                    for (var i=0;i<data.obj.length;i++){
+                        var $image;
+                        $imageBOX.append('<li><img src="" alt=""/></li>');
+                        $image=$('.pgwSlider li img:eq('+i+')')
+                        // $('.pgwSlider img:eq('+i+')');
+                        
+                        $image.attr('src',data.obj[i].url)
+                        $image.attr('data-description',data.obj[i].description)
+                        $image.attr('alt',data.obj[i].title)
+                    }
+                    $('.pgwSlider').pgwSlider({
+                            maxHeight:($(window).height()*0.5),
+                            transitionDuration: 500, //图片自动轮播时，图片切换的时间，单位毫秒
+                            intervalDuration: 5000 //显示下一张图片之前的间隔时间单位毫秒，该参数需要autoSlide为true
+                        }
+                    );
+                }
+            }
+        })
+        // $(document).ready(function(){
+        //
+        // });
+        setInterval(function () {
+            $('#iframeContent').css("height",($(window).height()));
+            $('#iframeContent').css("width",($(window).width()))
+            // console.log($('#iframeContent').width()/$(window).width(),$('#iframeContent').height()/$(window).height())
+            // 0.8396778916544656 0.7738287560581584
+            $('#announcementList').css("marginTop",($(window).height())*0.555)
+        },3000)
+
+    }
+</script>
+</body>
+</html>

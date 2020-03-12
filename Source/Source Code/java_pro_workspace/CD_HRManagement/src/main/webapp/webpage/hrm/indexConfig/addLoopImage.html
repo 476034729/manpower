@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="cn">
+<head>
+    <meta charset="UTF-8">
+    <title>上传轮播图片</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/addLoopImage.css">
+</head>
+<body>
+<div id="Content">
+    <div class="alert alert-warning alert-dismissible tips" role="alert">
+        <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+    </div>
+</div>
+
+<!--<input id="input-b2" name="input-b2" type="file" class="file" onchange="changeImg()" >-->
+<div class="btnDiv"><button onclick="formUpload()" class="btn-lg changeBtn">更新配置</button></div>
+
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+<script>
+      var str='  <div id=""   class="imgBox alert alert-dismissible" >\n'+
+            '     <button onclick="deleteImg(this)" type="button" data-dismiss="" class="deleteBtn close"  aria-label="Close"><span aria-hidden="true">&times;</span></button> \n'+
+            '        <div class="row imgContent">\n' +
+            '            <div class="imgContentDiv">\n' +
+            '                <a draggable="false" style="" href="#" class="upload thumbnail">\n' +
+            '                    <img draggable="false" class="uploadImg" src="./img/upload.png" alt="...">\n' +
+            '                </a>\n' +
+            '            </div>\n' +
+            '        </div>\n' +
+            '        <form class="form-horizontal" role="form">\n' +
+            '            <div class="form-group row">\n' +
+            '                <label for="title" class="col-sm-2 control-label">标题:</label>\n' +
+            '                <div class="col-sm-9">\n' +
+            '                    <input type="text" class="form-control title" id="title" placeholder="请输入图片标题">\n' +
+            '                </div>\n' +
+            '            </div>\n' +
+            '            <div class="form-group row">\n' +
+            '                <label for="description" class="col-sm-2 control-label">描述:</label>\n' +
+            '                <div class="col-sm-9">\n' +
+            '                    <input type="text" class="form-control description" id="description" placeholder="请输入图片描述">\n' +
+            '                </div>\n' +
+            '            </div>\n' +
+            '        </form>\n' +
+            '    </div>'
+      // var url="http://localhost:8080/jeecg";
+      var url="http://192.168.0.92:8052/hrm";
+      var tips= $('.tips');
+      function formUpload() {
+          var formUploadData=[];
+          var imgbox=document.getElementsByClassName("imgBox")
+          for (var i=0;i<imgbox.length-1;i++){
+              var formUploadDataObj={}
+
+              formUploadDataObj.imgId=imgbox[i].getElementsByTagName("img")[0].alt;
+              formUploadDataObj.title=imgbox[i].getElementsByTagName("input")[0].value;
+              formUploadDataObj.description=imgbox[i].getElementsByTagName("input")[1].value;
+              formUploadData.push(formUploadDataObj)
+          }
+          console.log(JSON.stringify(formUploadData))
+
+          $.ajax({
+              url: url+"/loopPlay/update.do",
+              type: 'POST',
+              cache: false,
+              data: JSON.stringify(formUploadData),
+              processData: false,
+              contentType: "application/json",
+              dataType: "json",
+              success : function(data) {
+                  if (data.success){
+                      tips.css('display','block')
+                      tips.removeClass("alert-warning")
+                      tips.addClass("alert-success")
+                      tips.html("更新配置成功")
+                      setTimeout(function () {
+                          tips.css("display","none")
+                      },2000)
+                  }
+                  else {
+                      tips.css('display','block')
+                      tips.html("更新配置出错")
+                      setTimeout(function () {
+                          tips.css("display","none")
+                      },2000)
+                  }
+              },
+              error:function () {
+                  tips.css('display','block')
+                  tips.html("更新配置出错")
+                  setTimeout(function () {
+                      tips.css("display","none")
+                  },2000)
+              }
+          });
+      }
+
+      function deleteImg(e) {
+          var jsonStr={"imgId":e.parentNode.getElementsByTagName("img")[0].getAttribute('alt')}
+          $.ajax({
+              url: url+"/image/delete.do",
+              type: 'POST',
+              cache: false,
+              data: JSON.stringify(jsonStr),
+              processData: false,
+              contentType: "application/json",
+              dataType: "json",
+              success : function(data) {
+                  var tips= $('.tips');
+                  if (data.success){
+                      e.parentNode.parentNode.removeChild(e.parentNode)
+                      e=null;
+                      tips.css('display','block')
+                      tips.removeClass("alert-warning")
+                      tips.addClass("alert-success")
+                      tips.html("删除成功")
+                      setTimeout(function () {
+                          tips.css("display","none")
+                      },2000)
+                  }
+              }
+          });
+      }
+        function changepic(e) {
+            var $lastDiv=$(".imgBox:last")
+            $lastDiv.before(str)
+          var f = document.getElementById("fileUpload").files[0];
+          if (f!==undefined){
+            var reads= new FileReader();
+            reads.readAsDataURL(f);
+            reads.onloadend=function (e) {
+                var $uploadImg = $(".uploadImg:eq(-2)");
+                //上传文件
+                var formdata= new FormData($('#fileUpload')[0]);
+                formdata.append('image', f);
+                $.ajax({
+                    url: url+"/image/upload.do",
+                    type: 'POST',
+                    cache: false,
+                    data: formdata,
+                    processData: false,
+                    contentType: false,
+                    dataType: "json",
+                    success : function(data) {
+
+                        if (data.success) {
+                            tips.css('display','block')
+                            tips.removeClass("alert-warning")
+                            tips.addClass("alert-success")
+                            tips.html("上传成功")
+                            $uploadImg.attr("src",reads.result);
+                            $uploadImg.css("height","auto");
+                            $uploadImg.css("width","auto");
+                            setTimeout(function () {
+                                tips.css("display","none")
+                            },2000)
+
+                            $uploadImg.attr("alt",data.obj.id)
+                        } else {
+                            tips.css('display','block')
+                            tips.html("上传出错")
+                            var obj = document.getElementById('fileUpload')
+                            obj.outerHTML=obj.outerHTML;
+                            //删除input中的文件
+                            console.log(document.getElementById("fileUpload").files[0])
+                            setTimeout(function () {
+                                tips.css("display","none")
+                            },2000)
+                            $(".imgBox:eq(-2)").remove()
+                        }
+                    }
+                });
+
+            };
+          }else {
+              $(".imgBox:eq(-2)").remove()
+          }
+    }
+    window.onload=function (ev) {
+      var $Content= $("#Content")
+        setInterval(function () {
+            $Content.css("width",($(window).width()))
+        },3000)
+
+        var accessImg= $.ajax({
+            type: "POST",
+            url: url+"/loopPlay/list.do",
+            dataType: "json",
+            success:function(data){
+                if (data.success===true) {
+                    for (var i = 0; i < data.obj.length; i++) {
+                        $Content.append(str)
+                        var $newDivImg = $('img:eq(' + (i) + ')');
+                        $newDivImg.attr("src",data.obj[i].url);
+                        $newDivImg.attr("alt",data.obj[i].imgId)
+                        var $ImgTitle = $('.title:eq(' + (i) + ')');
+                        $ImgTitle.val(data.obj[i].title);
+                        var $ImagDescription = $('.description:eq(' + (i) + ')');
+                        $ImagDescription.val(data.obj[i].description);
+                    }
+                    $Content.append(str)
+
+
+                        for (let v=0;v<data.obj.length+1;v++){
+                            if ($(".uploadImg").eq(v).attr("src")==="./img/upload.png") {
+                                $(".uploadImg").eq(v).addClass("lastImg")
+                                var $closeBtn=$(".deleteBtn:eq("+(v)+") span")
+                                $closeBtn.remove();
+                                var $lastInput= $(".form-horizontal:eq("+(v)+") input")
+                                $lastInput.attr("disabled","true")
+                                $lastInput.attr("placeHolder","请先上传图片")
+                                $(".imgContent:eq("+(v)+") a").append("<div style='position: absolute'><input type='file' id='fileUpload' onchange='changepic(this)' accept='image/png, image/jpeg, image/gif, image/jpg' class='fileUpload'></div>")
+
+                            }
+                        }
+
+
+                }
+                else {
+                    tips.css('display','block')
+                   tips.append("Server responded with a status of "+accessImg.status+" 查询出错")
+                    $(".btnDiv button").attr("disabled","true")
+                }
+            }
+        })
+    }
+
+</script>
+</body>
+</html>

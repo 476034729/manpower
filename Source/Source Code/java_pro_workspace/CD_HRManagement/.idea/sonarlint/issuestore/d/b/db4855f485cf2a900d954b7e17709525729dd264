@@ -1,0 +1,31 @@
+
+•squid:S1192u"~Define a constant instead of duplicating this literal "where af.id=afd.autoFormId and af.formName=? and afd.dbName=?" 3 times.(Í¬
+csquid:S1192Ú"FDefine a constant instead of duplicating this literal "param" 3 times.(­Ùóéøÿÿÿÿ
+jsquid:S1192Û"MDefine a constant instead of duplicating this literal "listctrl_fk_" 3 times.(Ó®Şªøÿÿÿÿ
+squid:S1192t"xDefine a constant instead of duplicating this literal "select afd from AutoFormEntity af,AutoFormDbEntity afd " 3 times.(ÚÕ×š
+Lsquid:S1066 "/Merge this if statement with the enclosing one.(ü‚Ê«øÿÿÿÿ
+Lsquid:S1066¼"/Merge this if statement with the enclosing one.(ìæÀ‡ùÿÿÿÿ
+\squid:S2583ö"DChange this condition so that it does not always evaluate to "false"(×øê
+Usquid:S1155w">Use isEmpty() to check whether the collection is empty or not.(•ñ¥À
+Vsquid:S1155ã">Use isEmpty() to check whether the collection is empty or not.(•ñ¥À
+Vsquid:S1155—">Use isEmpty() to check whether the collection is empty or not.(•ñ¥À
+wsquid:S1149"_Replace the synchronized class "StringBuffer" by an unsynchronized one such as "StringBuilder".(âì˜¶
+wsquid:S1149‚"_Replace the synchronized class "StringBuffer" by an unsynchronized one such as "StringBuilder".(ÿü”˜
+wsquid:S1149ö"_Replace the synchronized class "StringBuffer" by an unsynchronized one such as "StringBuilder".(æéÅ¬
+wsquid:S1149ø"_Replace the synchronized class "StringBuffer" by an unsynchronized one such as "StringBuilder".(âì˜¶
+wsquid:S1149ù"_Replace the synchronized class "StringBuffer" by an unsynchronized one such as "StringBuilder".(ÿü”˜
+|squid:S1149Ä"_Replace the synchronized class "StringBuffer" by an unsynchronized one such as "StringBuilder".(ƒ£û›ùÿÿÿÿ
+nsquid:S3776g"RRefactor this method to reduce its Cognitive Complexity from 33 to the 15 allowed.(´Ÿ¥—ıÿÿÿÿ
+bsquid:S3027o"FPut single-quotes around '[' to use the faster "indexOf(char)" method.(¸šşÈúÿÿÿÿ
+bsquid:S3027p"FPut single-quotes around '[' to use the faster "indexOf(char)" method.(šáíÆøÿÿÿÿ
+psquid:S3776Ì"SRefactor this method to reduce its Cognitive Complexity from 128 to the 15 allowed.(ÍæÕªÿÿÿÿÿ
+csquid:S3027×"FPut single-quotes around '[' to use the faster "indexOf(char)" method.(¸šşÈúÿÿÿÿ
+csquid:S3027Ø"FPut single-quotes around '[' to use the faster "indexOf(char)" method.(šáíÆøÿÿÿÿ
+\squid:S1858„"E"id" is already a string, there's no need to call "toString()" on it.(î¿™&
+\squid:S1858³"E"id" is already a string, there's no need to call "toString()" on it.(î¿™&
+_squid:S1858ò"B"toString" returns a string, there's no need to call "toString()".(¿Ù£ùÿÿÿÿ
+isquid:S3776‡"RRefactor this method to reduce its Cognitive Complexity from 17 to the 15 allowed.(±•
+jsquid:S3776«"RRefactor this method to reduce its Cognitive Complexity from 20 to the 15 allowed.(ö›µñ
+csquid:S3027´"FPut single-quotes around '[' to use the faster "indexOf(char)" method.(¸šşÈúÿÿÿÿ
+csquid:S3027µ"FPut single-quotes around '[' to use the faster "indexOf(char)" method.(šáíÆøÿÿÿÿ
+csquid:CommentedOutCodeLineÏ"<This block of commented-out lines of code should be removed.(¶…ú‘

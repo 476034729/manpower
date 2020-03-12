@@ -1,0 +1,122 @@
+
+*{
+    padding: 0;
+    margin: 0;
+}
+#pic{
+    position: absolute;
+    height:100%;
+    width: 60%;
+
+}
+.announcement{
+    height: 100%;
+}
+#iframeContent{
+    position: relative;
+}
+
+#announcementDetail{
+    height: 100%;
+    width: 100%;
+}
+#announcementTable{
+    margin-left: 60%;
+    position: relative;
+    height: 100%;
+    width: 40%;
+
+}
+li{
+    list-style-type:none;
+}
+
+#table tr td{
+    border-style: none;
+    color: grey;
+    height: 2vmax;
+    overflow: visible;
+
+}
+#table tr{
+    border-style: none;
+}
+#table tr td a{
+    text-decoration:none;
+    color: #000000;
+    display: block;
+    font-size: 2vmin;
+    width:28em;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+#table tr td a:hover{
+    color: rgb(204,0,0);
+}
+#announcementListHead{
+    background-color: rgb(66,136,202);
+    height:16%;
+    width: 16%;
+    text-align: center;
+    border-radius: 7px;
+}
+#announcementListHead span{
+    color: white;
+    line-height: 6vmin ;
+    height:6vmin;
+    font-size: 3vmin;
+}
+
+
+
+#announcementList{
+    height: 41.9%;
+}
+#announcementDetailHead{
+    background-color: rgb(66,136,202);
+    height:7%;
+    width: 18%;
+    text-align: center;
+    border-radius: 7px;
+    margin-bottom: 7px;
+}
+#announcementDetailBody{
+    height: 90%;
+    background-color: #fff;
+    overflow-y: scroll;
+    border-radius: 7px;
+    border: 1px solid rgb(231,221,199);
+
+}
+#announcementDetailHead span{
+    color: white;
+    line-height: 6vmin ;
+    height:6vmin;
+    font-size: 3vmin;
+}
+
+/* 标题 */
+#announcementDetailTitle{
+    text-align: center;
+    font-weight: bolder;
+    font-size: 4vmin;
+    margin-top: 3vmin;
+    margin-bottom: 3vmin;
+    height: 4vmin;
+    padding: 0;
+}
+
+#announcementDetailText{
+    font-weight: normal;
+    font-size: 3vmin;
+    line-height: 3vmin;
+    margin-left: 2em;
+}
+
+.pgwSlider{
+    margin-left: 0.5%;
+    width: 98%;
+    margin-top: 0.5%;
+}

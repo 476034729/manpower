@@ -1,0 +1,15 @@
+
+squid:UselessImportCheck"VRemove this unused import 'org.jeecgframework.web.hrm.bean.ExaminationQuestionOption'.(ª»Ùæþÿÿÿÿ
+T
+squid:S106"9Replace this use of System.out or System.err by a logger.(Ë÷ÜÉúÿÿÿÿ
+O
+squid:S106!"9Replace this use of System.out or System.err by a logger.(òÖ˜ü
+T
+squid:S106("9Replace this use of System.out or System.err by a logger.(À¢«—ýÿÿÿÿ
+T
+squid:S1060"9Replace this use of System.out or System.err by a logger.(À¢«—ýÿÿÿÿ
+O
+squid:S1068"9Replace this use of System.out or System.err by a logger.(â«²Þ
+O
+squid:S106;"9Replace this use of System.out or System.err by a logger.(ÅñŽ½
+gsquid:CommentedOutCodeLine1"<This block of commented-out lines of code should be removed.(Îÿ·øÿÿÿÿ

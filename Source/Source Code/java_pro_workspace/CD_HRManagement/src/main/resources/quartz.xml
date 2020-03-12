@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:task="http://www.springframework.org/schema/task"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd  
+        http://www.springframework.org/schema/task http://www.springframework.org/schema/task/spring-task-3.1.xsd">
+
+	<!-- 线程执行器配置，用于任务注册 
+	<bean id="executor" class="org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor">
+		<property name="corePoolSize" value="5" />
+		<property name="maxPoolSize" value="20" />
+		<property name="queueCapacity" value="500" />
+	</bean> -->
+	
+	<!-- 配置业务类 -->
+	<bean id = "syncLamp" class="org.jeecgframework.web.hrm.utils.AsyncExecLampAndGZoneRSTask"></bean>
+	<!-- 配置JobDetail -->
+	<bean id = "jobDetail" class="org.springframework.scheduling.quartz.MethodInvokingJobDetailFactoryBean">
+		<property name="targetObject" ref="syncLamp"/>
+		<property name="targetMethod" value="updateLampInfo"/>
+		<property name="concurrent" value="true"/>
+        <!-- 是否允许任务并发执行。当值为false时，表示必须等到前一个线程处理完毕后才再启一个新的线程 -->
+	</bean>
+	<!-- 配置trigger -->
+	<bean id="syncTrigger" class="org.springframework.scheduling.quartz.CronTriggerFactoryBean">  
+       <property name="jobDetail" ref="jobDetail"/>  
+       <!-- <property name="cronExpression" value="0 0/1 * * * ?"/> 每隔1分钟触发一次 -->  
+       <!--<property name="cronExpression" value="*/5 * * * * ?"/> &lt;!&ndash; 每5秒钟触发一次 &ndash;&gt;-->
+		<property name="cronExpression" value="0 10 9 1 * ?"/> <!-- 每月1日上午9点10分触发一次 -->
+	</bean>
+
+	<bean id = "syncLamp1" class="org.jeecgframework.web.hrm.utils.MonthOvertimeRSTask"></bean>
+	<!-- 配置JobDetail -->
+	<bean id = "jobDetail1" class="org.springframework.scheduling.quartz.MethodInvokingJobDetailFactoryBean">
+		<property name="targetObject" ref="syncLamp1"/>
+		<property name="targetMethod" value="insertAllMonthOvertime"/>
+		<property name="concurrent" value="true"/>
+		<!-- 是否允许任务并发执行。当值为false时，表示必须等到前一个线程处理完毕后才再启一个新的线程 -->
+	</bean>
+	<!-- 配置trigger -->
+	<bean id="syncTrigger1" class="org.springframework.scheduling.quartz.CronTriggerFactoryBean">
+		<property name="jobDetail" ref="jobDetail1"/>
+		<!-- <property name="cronExpression" value="0 0/1 * * * ?"/> 每隔1分钟触发一次 -->
+		<!--<property name="cronExpression" value="*/5 * * * * ?"/> &lt;!&ndash; 每5秒钟触发一次 &ndash;&gt;-->
+		<!--<property name="cronExpression" value="0 30 9? 1 WED"/> &lt;!&ndash; 每年1月9点30触发一次 &ndash;&gt;-->
+		<property name="cronExpression" value="0 0 11 19 * ?"/> <!-- 每月1日上午9点10分触发一次 -->
+	</bean>
+
+	<!--年假统计表自动生成-->
+	<bean id = "syncLamp2" class="org.jeecgframework.web.hrm.utils.AnnualLeaveNewRecordRSTask"></bean>
+	<!-- 配置JobDetail -->
+	<bean id = "jobDetail2" class="org.springframework.scheduling.quartz.MethodInvokingJobDetailFactoryBean">
+		<property name="targetObject" ref="syncLamp2"/>
+		<property name="targetMethod" value="insertAnnualLeaveRecordAuto"/>
+		<property name="concurrent" value="true"/>
+		<!-- 是否允许任务并发执行。当值为false时，表示必须等到前一个线程处理完毕后才再启一个新的线程 -->
+	</bean>
+	<!-- 配置trigger -->
+	<bean id="syncTrigger2" class="org.springframework.scheduling.quartz.CronTriggerFactoryBean">
+		<property name="jobDetail" ref="jobDetail2"/>
+		<!-- <property name="cronExpression" value="0 0/1 * * * ?"/> 每隔1分钟触发一次 -->
+		<!--<property name="cronExpression" value="*/5 * * * * ?"/> &lt;!&ndash; 每5秒钟触发一次 &ndash;&gt;-->
+		<!--<property name="cronExpression" value="0 30 9? 1 WED"/> &lt;!&ndash; 每年1月9点30触发一次 &ndash;&gt;-->
+		<!--<property name="cronExpression" value="0 49 16 3 1 ? *"/> &lt;!&ndash; 每年1月1日上午9点触发一次 -->
+		<property name="cronExpression" value="0 0 9 1 1 ? *"/> <!--每年1月1日上午9点触发一次 -->
+	</bean>
+
+	<!--每月最后一天自动年假数增加1-->
+	<bean id = "syncLamp3" class="org.jeecgframework.web.hrm.utils.AddLeaveDayRSTask"></bean>
+	<!-- 配置JobDetail -->
+	<bean id = "jobDetail3" class="org.springframework.scheduling.quartz.MethodInvokingJobDetailFactoryBean">
+		<property name="targetObject" ref="syncLamp3"/>
+		<property name="targetMethod" value="updateAnnualLeaveRecordAuto"/>
+		<property name="concurrent" value="true"/>
+		<!-- 是否允许任务并发执行。当值为false时，表示必须等到前一个线程处理完毕后才再启一个新的线程 -->
+	</bean>
+	<!-- 配置trigger -->
+	<bean id="syncTrigger3" class="org.springframework.scheduling.quartz.CronTriggerFactoryBean">
+		<property name="jobDetail" ref="jobDetail3"/>
+		<!-- <property name="cronExpression" value="0 0/1 * * * ?"/> 每隔1分钟触发一次 -->
+		<!--<property name="cronExpression" value="*/5 * * * * ?"/> &lt;!&ndash; 每5秒钟触发一次 &ndash;&gt;-->
+		<!--<property name="cronExpression" value="0 30 9? 1 WED"/> &lt;!&ndash; 每年1月9点30触发一次 &ndash;&gt;-->
+		<property name="cronExpression" value="0 0 18 L * ?"/> <!-- 每年1月1日上午9点触发一次 -->
+	</bean>
+
+	<!-- 配置业务类  每月1号自动给考勤记录表添加员工考勤初始记录 -->
+	<bean id = "syncLamp4" class="org.jeecgframework.web.hrm.utils.addAttendanceRecordRSTask"></bean>
+	<!-- 配置JobDetail -->
+	<bean id = "jobDetail4" class="org.springframework.scheduling.quartz.MethodInvokingJobDetailFactoryBean">
+		<property name="targetObject" ref="syncLamp4"/>
+		<property name="targetMethod" value="insertAttendanceRecordAuto"/>
+		<property name="concurrent" value="true"/>
+        <!-- 是否允许任务并发执行。当值为false时，表示必须等到前一个线程处理完毕后才再启一个新的线程 -->
+	</bean>
+	<!-- 配置trigger -->
+	<bean id="syncTrigger4" class="org.springframework.scheduling.quartz.CronTriggerFactoryBean">  
+       <property name="jobDetail" ref="jobDetail4"/>  
+       <!-- <property name="cronExpression" value="0 0/1 * * * ?"/> 每隔1分钟触发一次 -->  
+       <!--<property name="cronExpression" value="*/5 * * * * ?"/> &lt;!&ndash; 每5秒钟触发一次 &ndash;&gt;-->
+		<property name="cronExpression" value="0 10 9 1 * ?"/> <!-- 每月1日上午9点10分触发一次 -->
+	</bean>
+	
+	
+	<!-- 配置业务类  每月1号自动给工时填写初始化 -->
+	<bean id = "syncLamp5" class="org.jeecgframework.web.hrm.utils.AllWorkHourListUtil"></bean>
+	<!-- 配置JobDetail -->
+	<bean id = "jobDetail5" class="org.springframework.scheduling.quartz.MethodInvokingJobDetailFactoryBean">
+		<property name="targetObject" ref="syncLamp5"/>
+		<property name="targetMethod" value="insertWorkHourListAuto"/>
+		<property name="concurrent" value="true"/>
+        <!-- 是否允许任务并发执行。当值为false时，表示必须等到前一个线程处理完毕后才再启一个新的线程 -->
+	</bean>
+	<!-- 配置trigger -->
+	<bean id="syncTrigger5" class="org.springframework.scheduling.quartz.CronTriggerFactoryBean">  
+       <property name="jobDetail" ref="jobDetail5"/>  
+       <!-- <property name="cronExpression" value="0 0/1 * * * ?"/> 每隔1分钟触发一次 -->  
+       <!--<property name="cronExpression" value="*/5 * * * * ?"/> &lt;!&ndash; 每5秒钟触发一次 &ndash;&gt;-->
+		<property name="cronExpression" value="0 10 1 1 * ?"/> <!-- 每月1日上午1点10分触发一次 -->
+	</bean>
+
+	<!-- 配置Scheduler -->
+	<bean class="org.springframework.scheduling.quartz.SchedulerFactoryBean">  
+       <property name="triggers">  
+           <list>  
+              <ref bean="syncTrigger"/>
+			   <ref bean="syncTrigger1" />
+			   <ref bean="syncTrigger2" />
+			   <ref bean="syncTrigger3" />
+			   <ref bean="syncTrigger4" />
+			   <ref bean="syncTrigger5" />
+           </list>  
+       </property>  
+       <property name="autoStartup" value="true"/>  
+	</bean>  
+	
+	<!-- Enables the Spring Task @Scheduled programming model -->
+	<!-- <task:executor id="executor" pool-size="5" /> <task:scheduler id="scheduler" 
+		pool-size="5" /> <task:annotation-driven executor="executor" scheduler="scheduler" 
+		/> -->
+
+	<!-- <task:annotation-driven /> -->
+</beans>
